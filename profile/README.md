@@ -14,14 +14,14 @@ Aplicativo de desktop. Sem servidor, sem conta, sem login.
 
 | Tela | Onde roda | O que é |
 | --- | --- | --- |
-| **Operador** | no aplicativo | A tela do mestre: monta cenas, arrasta imagens, esconde regiões, decide o que entra no ar |
-| **Assistir** | navegador | Só o palco, sem controle. Vai na TV atrás do mestre |
-| **Plateia** | navegador | O celular de cada jogador, com a ficha e os anexos dele |
+| **Mestre** | no aplicativo | A tela do mestre: monta as cenas, arrasta as imagens, esconde regiões e decide o que entra no ar |
+| **Espectador** | navegador, na TV da mesa | Só o palco, sem controle nenhum. Fica na TV atrás do mestre, e mostra a cena que está no ar |
+| **Jogador** | navegador, no celular | O celular de cada jogador: a ficha dele, o caderno de notas e os dados que ele joga na mesa |
 
 A cena **em edição** e a cena **no ar** são separadas — é isso que permite preparar a
 próxima enquanto a mesa segue na atual.
 
-Quem serve as duas telas de espectador é um daemon HTTP que roda dentro do próprio
+Quem serve o Espectador e o Jogador é um daemon HTTP que roda dentro do próprio
 aplicativo, na porta 20200 da rede local. Ninguém instala nada além do mestre: os jogadores
 lêem um QR e abrem uma aba.
 

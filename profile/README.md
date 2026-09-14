@@ -62,24 +62,6 @@ confia numa extensão do VSCode.
 Não há loja, não há revisão e não há sandbox. O aplicativo mostra autor e repositório antes
 de habilitar — o resto é essa confiança.
 
-## Rodar
+## Licença
 
-Requer Node 20+, pnpm e Rust estável. No Linux, as dependências do Tauri: `webkit2gtk-4.1`,
-`gtk3`, `libayatana-appindicator`, `librsvg`.
-
-```bash
-pnpm install
-pnpm tauri dev
-```
-
-`pnpm dev` sozinho serve as telas em `localhost:3000`, mas o Operador aparece dizendo "abra
-pelo aplicativo": uma aba de navegador não alcança o disco.
-
-## Estado
-
-Em migração de uma versão web anterior. Next.js + Tauri 2, com daemon `axum` e `rusqlite` no
-mesmo processo. O Operador está completo; Assistir,
-Plateia, fichas de jogador e exportar/importar funcionam na rede local. Ainda não há release
-publicada — por enquanto se roda a partir do código.
-
-Licença MIT.
+[MIT](../LICENSE). Use, modifique e distribua.

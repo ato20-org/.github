@@ -1,11 +1,14 @@
 # ATO20
 
-**Ferramenta para organizar e exibir cenas de RPG de mesa.**
+**A sua IDE para RPG de mesa.**
 
-Feita para jogo presencial: o mestre monta a próxima cena no notebook enquanto a mesa
-continua vendo a atual na TV, e cada jogador acompanha pelo próprio celular.
+Feito para mesas presenciais ou em LAN: desenvolva suas histórias e controle suas cenas. O
+mestre monta a próxima cena no notebook enquanto a mesa continua vendo a atual na TV, e cada
+jogador acompanha pelo próprio celular.
 
 Aplicativo de desktop. Sem servidor, sem conta, sem login.
+
+**Open source e gratuito** — minha contribuição para a comunidade de RPG.
 
 ## Três telas, uma máquina
 
@@ -59,14 +62,6 @@ confia numa extensão do VSCode.
 Não há loja, não há revisão e não há sandbox. O aplicativo mostra autor e repositório antes
 de habilitar — o resto é essa confiança.
 
-## Os repositórios
-
-| Repositório | O que é |
-| --- | --- |
-| [`ato20`](https://github.com/ato20-org/ato20) | O aplicativo. Next.js + Tauri 2, com daemon `axum` e `rusqlite` no mesmo processo |
-| [`ato20-exemplos`](https://github.com/ato20-org/ato20-exemplos) | Extensões de exemplo: dois temas, dois plugins de funcionalidade |
-| [`next.ato20`](https://github.com/ato20-org/next.ato20) | A landing page |
-
 ## Rodar
 
 Requer Node 20+, pnpm e Rust estável. No Linux, as dependências do Tauri: `webkit2gtk-4.1`,
@@ -82,8 +77,9 @@ pelo aplicativo": uma aba de navegador não alcança o disco.
 
 ## Estado
 
-Projeto pessoal, em migração de uma versão web anterior. O Operador está completo; Assistir,
+Em migração de uma versão web anterior. Next.js + Tauri 2, com daemon `axum` e `rusqlite` no
+mesmo processo. O Operador está completo; Assistir,
 Plateia, fichas de jogador e exportar/importar funcionam na rede local. Ainda não há release
 publicada — por enquanto se roda a partir do código.
 
-MIT.
+Licença MIT.

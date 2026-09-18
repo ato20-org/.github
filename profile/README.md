@@ -50,7 +50,7 @@ abre em qualquer outra máquina com a mesa continuando a valer.
 
 ## Extensões
 
-Uma extensão é uma **pasta com `manifesto.json` dentro**. Instalar é copiar essa pasta para
+Uma extensão é uma **pasta com `manifest.json` dentro**. Instalar é copiar essa pasta para
 a máquina — é o mesmo formato que se publica aqui no GitHub, então quem clona o repositório
 já tem exatamente o que o diálogo de importar pede.
 

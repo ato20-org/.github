@@ -8,7 +8,7 @@ jogador acompanha pelo próprio celular.
 
 Aplicativo de desktop. Sem servidor, sem conta, sem login.
 
-**Open source e gratuito** — minha contribuição para a comunidade de RPG.
+**Gratuito** — minha contribuição para a comunidade de RPG.
 
 ## Três telas, uma máquina
 
@@ -64,4 +64,6 @@ de habilitar — o resto é essa confiança.
 
 ## Licença
 
-[MIT](../LICENSE). Use, modifique e distribua.
+O ATO20 é gratuito, sob a [PolyForm Perimeter 1.0.0](https://github.com/ato20-org/ato20#licença): o
+código fica aberto para ler, modificar e redistribuir, e só não pode virar outro produto que
+concorra com ele. A documentação de plugins é MIT, e o plugin leva a licença que o autor quiser.
